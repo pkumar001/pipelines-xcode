@@ -25,7 +25,7 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    contents: '**/*.dSYM'
+    contents: '**/*.app'
     targetFolder: '$(build.artifactStagingDirectory)'
 
 - task: PublishBuildArtifacts@1
